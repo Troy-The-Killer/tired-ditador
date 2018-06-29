@@ -178,7 +178,7 @@ async def on_message(message):
             embed1 = discord.Embed(
                 title=":mountain: Imagem de Perfil",
                 color=0x4d0083,
-                description='[Clique aqui]('+membro.avatar_url+') para acessar o link do avatar de {}!'.format(membro.name)
+                description='[Download]('+membro.avatar_url+') do avatar. {}!'.format(membro.name)
             )
             embed1.set_image(url=membro.avatar_url)
             await client.send_message(message.channel, embed=embed1)
