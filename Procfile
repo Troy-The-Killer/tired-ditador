@@ -1,1 +1,0 @@
-ditador: python "ditador.py"
